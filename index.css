@@ -1,0 +1,20 @@
+header {
+    color: wheat;
+    font-size: 20px;
+    background-color: brown;
+    
+    height: 30%;
+}
+
+.dat {
+    color :blue; 
+    font-size: large;
+}
+
+.contaioner {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aqua;
+    height: 400px;
+
+
+}
