@@ -6,14 +6,20 @@ header {
     height: 30%;
 }
 
+.body {
+    background-image: url(images/mokuzai.jpg);
+    background-repeat: repeat-x;
+}
+
+
 .dat {
-    color :blue; 
+    /* color :blue;  */
     font-size: large;
 }
 
 .contaioner {
     font-family: 'Courier New', Courier, monospace;
-    background-color: aqua;
+    /* background-color: aqua; */
     height: 400px;
 
 
