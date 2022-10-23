@@ -1,4 +1,63 @@
 <form action="example.php" method="post" name="contact-from" >
     ここにフォームの部分が入ります。
 </form>
+
+<h2>名前</h2>
 <input type="text" placeholder="苗字　名前" >
+
+<h2>検索</h2>
+<input type="search" placeholder="ここに入力してください" >
+
+<h2>メールアドレス</h2>
+<input type="email" placeholder="メールアドレス" >
+
+<h2>電話番号</h2>
+<input type="tel" placeholder="電話番号" >
+
+<h2>Web</h2>
+<input type="url" placeholder="url" >
+
+<h2>ラジオボタン</h2>
+性別:
+<input type="radio" name="gender" value="男">男
+<input type="radio" name="gender" value="女" checked>女
+<input type="radio" name="gender" value="その他">その他
+
+<h2>チェックボックス</h2>
+好きな色:
+<input type="checkbox" name="color" value="赤" checck>赤
+<input type="checkbox" name="color" value="青">青
+<input type="checkbox" name="color" value="黄">黄
+<input type="checkbox" name="color" value="緑">緑
+
+<input type="submit" value="送信する">
+<h3>aa</h3>
+<input type="image" src="images/mokuzai.jpg" alt="送信する">
+
+<h4>セレクトボックス</h4>
+<select name="bloodtype">
+    <option value="A">A</option>
+    <option value="B">B</option>
+    <option value="O">O</option>
+    <option value="AB">AB</option>
+    <option value="不明" selected>不明</option>
+</select>
+
+<h4>メッセージ</h4>
+<textarea name="message" placeholder="メッセージ入力"></textarea>
+
+<h4>ラベルタグ</h4>
+<input type="checkbox" name="travel" value="日本国内" id="japan">
+<label for="japan">日本国内</label>
+<input type="checkbox" name="travel" value="ヨーロッパ" id="europe">
+<label for="europe">ヨーロッパ</label>
+<input type="checkbox" name="travel" value="東南アジア" id="asia">
+<label for="asia">東南アジア</label>
+
+
+
+
+
+
+
+
