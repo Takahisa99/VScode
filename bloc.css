@@ -2,16 +2,45 @@ header {
     font-size: 100%;
     color: yellow;
     background-image: url(images/mokuzai.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     background-position: center top;
 }
 
 
-article {
-    color: red;
+.article {
+    color: yellow;
+    background-image: url(images/syaridake101006.jpg.webp) ;
+    background-size: 50%;
 }
 
-section{
+.main {
+    background-color: lightcoral;
+    width: auto;
+    height: auto;
+}
+
+.item {
+    background: #0bd;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+}
+
+.aside {
     color: blue;
+    background-color: lightgreen;
+    border-width: thcik;
+    border-style: solid; 
+    margin-right: 70% ;
 }
 
+.aside2 {
+    background-color: blueviolet;
+    margin-left: 30%;
+    border-width: 3px 4px 5px 6px; 
+    border-style: solid;
+}
