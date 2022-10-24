@@ -1,0 +1,17 @@
+header {
+    font-size: 100%;
+    color: yellow;
+    background-image: url(images/mokuzai.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+
+article {
+    color: red;
+}
+
+section{
+    color: blue;
+}
+
