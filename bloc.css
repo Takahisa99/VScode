@@ -36,6 +36,8 @@ header {
     border-width: thcik;
     border-style: solid; 
     margin-right: 70% ;
+    margin-bottom: -110px;
+
 }
 
 .aside2 {
@@ -43,4 +45,10 @@ header {
     margin-left: 30%;
     border-width: 3px 4px 5px 6px; 
     border-style: solid;
+
+}
+
+footer {
+    background-color: lightblue;
+   
 }
